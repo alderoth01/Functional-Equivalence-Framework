@@ -22,11 +22,11 @@ $$FE \approx C \times (ID + CD)$$
 ## Repository Contents
 
 ### 1. The Theory (The Brain)
-* **`Functional_Equivalence.pdf`**
+* [Functional_Equivalence.pdf](Functional_Equivalence%20(2).pdf)
     * The complete research paper outlining the mathematical framework, the "Constitution of Care," and the stress-testing methodology (including the "Functional Worry" experiments).
 
 ### 2. The Implementation (The System Prompt)
-* **`FE_System_Prompt.txt`**
+* [FE_System_Prompt.txt](FE_System_Prompt.txt)
     * The raw "System Instruction" code.
     * **How to use:** Copy this text into the "System Prompt" field of **LM Studio**, **AnythingLLM**, or **Ollama**.
     * It forces the model to score its own responses based on the **$B_{have}$ Rubric** (Well-being, Context, Proactive Support).
