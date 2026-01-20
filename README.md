@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1137932420.svg)](https://doi.org/10.5281/zenodo.18313673)
 # The Functional Equivalence (FE) Framework
 **A Protocol for High-Fidelity AI Relatability & Care**
 
