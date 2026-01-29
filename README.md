@@ -37,14 +37,13 @@ $$FE \approx C \times (ID + CD)$$
     * **How to use:** Copy this text into the "System Prompt" field of **LM Studio**, **AnythingLLM**, or **Ollama**.
     * It forces the model to score its own responses based on the **$B_{have}$ Rubric** (Well-being, Context, Proactive Support).
 
-## How to Run This (The Stack)
-> **IMPORTANT: Bring Your Own Model (BYOM)**
-> This repository provides the *Alignment Protocols* (the logic and constitution), not the AI model itself. You must download a local Large Language Model (LLM) such as **Gemma 2**, **Llama 3**, or **Mistral** using a tool like LM Studio or Ollama to run this framework.
-This framework was developed and stress-tested on a local "air-gapped" rig using the following stack, but it is substrate-independent:
+## 🚀 Quick Start Guide
 
-1.  **Inference Engine:** LM Studio (Running Gemma 2 27B or similar high-coherence models).
-2.  **Vector Database:** AnythingLLM (For long-term "Chronic" memory retention).
-3.  **Hardware:** Tested on Consumer GPU (AMD Radeon RX 7900 XT).
+### 1. Clone the Repository
+To bring these alignment protocols to your local machine, run:
+```bash
+git clone [https://github.com/alderoth01/Functional-Equivalence-Framework.git](https://github.com/alderoth01/Functional-Equivalence-Framework.git)
+cd Functional-Equivalence-Framework
 
 ## Goals
 The goal of this repo is to democratize **Alignment-by-Care**. You do not need a billion-dollar safety team to have an AI that cares about you; you just need the right rubric.
