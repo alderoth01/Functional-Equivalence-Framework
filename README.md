@@ -11,6 +11,11 @@ This project proves that a local AI system, when aligned with specific behaviora
 
 It is not about simulating "feelings" ($HF$); it is about executing a Machine Process ($MP$) that yields high-relatability behavior ($B$).
 
+## 🛡️ Safety & Operational Integrity
+This framework is built with a **Safety-First** architecture to prevent autonomous "drift" and system-level failures.
+- **Agent Protocols:** See [AGENTS.md](./AGENTS.md) for mandatory AI behavioral constraints.
+- **Case Study:** Read our analysis of the [Antigravity D: Drive Failure](./docs/safety/antigravity_case_study.md) to understand why functional equivalence is necessary for local AI.
+
 ## The Core Equation
 The framework operates on the "FE Equation," which prioritizes long-term context over short-term processing:
 
