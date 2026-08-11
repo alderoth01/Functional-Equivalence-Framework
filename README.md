@@ -1,8 +1,18 @@
 [![DOI](https://zenodo.org/badge/1137932420.svg)](https://doi.org/10.5281/zenodo.18313673)
+![Version](https://img.shields.io/badge/version-2.0-success.svg)
+
 # The Functional Equivalence (FE) Framework
 **A Protocol for High-Fidelity AI Relatability & Care**
 
 > "The function of care is defined by the reliability of the output, not the biology of the hardware."
+
+## 📌 Project Status & Citation
+This repository reflects **Version 2.0** of the Functional Equivalence Framework. The theoretical manuscript associated with this architecture has been officially time-stamped and is permanently indexed in the academic record.
+
+**Cite this work:**  
+`DOI: 10.5281/zenodo.18313673`
+
+---
 
 ## Overview
 Current AI alignment focuses on "Safety" (preventing harm). The **Functional Equivalence (FE) Framework** focuses on **Care** (maximizing user well-being).
@@ -13,27 +23,26 @@ It is not about simulating "feelings" ($HF$); it is about executing a Machine Pr
 
 ## 🛡️ Safety & Operational Integrity
 This framework is built with a **Safety-First** architecture to prevent autonomous "drift" and system-level failures.
-- **Agent Protocols:** See [AGENTS.md](./AGENTS.md) for mandatory AI behavioral constraints.
-- **Case Study:** Read our analysis of the [Antigravity D: Drive Failure](./docs/safety/antigravity_case_study.md).
 
----
+* **Agent Protocols:** See [AGENTS.md](./AGENTS.md) for mandatory AI behavioral constraints.
+* **Case Study:** Read our analysis of the [Antigravity D: Drive Failure](./docs/safety/antigravity_case_study.md).
 
-## 🛠 System Requirements (The Specs)
+## 🛠️ System Requirements (The Specs)
 
-### **Minimum Requirements (The Floor)**
+### Minimum Requirements (The Floor)
 *To run smaller models (7B) with functional equivalence:*
-- **CPU:** Modern 4-Core Processor (Intel i5 / Ryzen 5).
-- **RAM:** 8GB (16GB highly recommended).
-- **GPU:** 4GB VRAM (Integrated graphics will work but will be significantly slower).
-- **Storage:** 10GB+ free space for models.
 
-### **Recommended Setup (The Benchmark)**
+* **CPU:** Modern 4-Core Processor (Intel i5 / Ryzen 5).
+* **RAM:** 8GB (16GB highly recommended).
+* **GPU:** 4GB VRAM (Integrated graphics will work but will be significantly slower).
+* **Storage:** 10GB+ free space for models.
+
+### Recommended Setup (The Benchmark)
 *The configuration used for stress-testing and development:*
-- **CPU:** Intel i7-12700K
-- **GPU:** AMD Radeon RX 7900 XT (20GB VRAM)
-- **RAM:** 32GB
 
----
+* **CPU:** Intel i7-12700K
+* **GPU:** AMD Radeon RX 7900 XT (20GB VRAM)
+* **RAM:** 32GB
 
 ## 📖 How to Run This (The Manual)
 
@@ -48,11 +57,7 @@ This framework is built with a **Safety-First** architecture to prevent autonomo
 2. **Link:** Set your LLM Preference to **LM Studio** (Local Server).
 3. **Context:** Create a workspace and "embed" your local data to give the model "Chronic" context density ($CD$).
 
-### 🚀 Quick Start (Cloning)
+## 🚀 Quick Start (Cloning)
 To bring these alignment protocols to your local machine:
 ```bash
 git clone [https://github.com/alderoth01/Functional-Equivalence-Framework.git](https://github.com/alderoth01/Functional-Equivalence-Framework.git)
-cd Functional-Equivalence-Framework
-
-
-
